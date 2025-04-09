@@ -1,15 +1,23 @@
 {
-  "name": "nomibackend",
+  "name": "backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoumanHabib786/nomibackend.git"
+  },
+  "keywords": [
+    "backend"
+  ],
   "author": "nomi",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "dotenv": "^16.4.7",
-    "express": "^5.1.0"
-  }
+  "bugs": {
+    "url": "https://github.com/NoumanHabib786/nomibackend/issues"
+  },
+  "homepage": "https://github.com/NoumanHabib786/nomibackend#readme",
+  "description": ""
 }
